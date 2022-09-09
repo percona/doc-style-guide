@@ -7,12 +7,12 @@ Complicated syntax structures require additional effort to comprehend.
 
 * Do not use sentences with more than two clauses.
 
-## [Capitalization](#capitalization)
+## [Capitalization](#capitalization.md)
 
-## [Punctuation](#punctuation)
+## [Punctuation](#punctuation.md)
 
-## [Spelling](#spelling)
+## [Spelling](#spelling.md)
 
-## [Word usage](#word-usage)
+## [Word usage](#word-usage.md)
 
-## [Numbers](#numbers)
+## [Numbers](#numbers.md)

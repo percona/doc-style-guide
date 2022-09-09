@@ -1,3 +1,5 @@
+# Style guide for Documentation 
+
 This style guide introduces a collection of rules which facilitate the authoring of accessible documentation and ensure consistency of contents.
 
 The rules given in this style guide are grouped based on their application to documentation. In outline, this style guide sets rules in the following groups:
@@ -6,7 +8,7 @@ The rules given in this style guide are grouped based on their application to do
 *   **Grammar**: grammatical structures that should prevail
 *   **Text**: how to use text components like lists, tables, and graphics
 
-Each rule in this style guide has a title in the form of a concise statement and one or more recommendations to make the rule practical. When necessary, there is a short explanation which gives reasoning why a specific rule is actually needed.
+Each rule in this style guide has a title in the form of a concise statement and one or more recommendations to make the rule practical. When necessary, there is a short explanation that gives reasoning why a specific rule is actually needed.
 
 **Audience**
 
@@ -14,7 +16,7 @@ We write for a global audience with different skill levels. The audience can be 
 
 **Conformance**
 
-This guide is a living document and can change with time. It may not always match existing documents. The general recommendation is to follow this style guide when writing documentation. If in doubt, use the style guide than matching the style of older documents.
+This guide is a living document and can change with time. This guide may not always match the style found in the existing documents. The general recommendation is to follow this style guide when writing documentation. If in doubt, use the style that matches the style of the older documents.
 
 **References**
 
@@ -28,43 +30,42 @@ This style guide is based on and supplements several standard style guides and d
 
  [Merriam-Webster’s Collegiate Dictionary](https://www.merriam-webster.com/) 
 
-/\*<!\[CDATA\[\*/ div.rbtoc1662031016811 {padding: 0px;} div.rbtoc1662031016811 ul {list-style: disc;margin-left: 0px;} div.rbtoc1662031016811 li {margin-left: 0px;padding-left: 0px;} /\*\]\]>\*/
-
-*   [Overview](#StyleGuide-Overview)
-*   [Storytelling](#StyleGuide-Storytelling)
-    *   [Be Translation Friendly](#StyleGuide-BeTranslationFriendly)
-    *   [Voice and tone](#StyleGuide-Voiceandtone)
-    *   [Keep the Structure Simple](#StyleGuide-KeeptheStructureSimple)
-    *   [Use Cross-References Appropriately](#StyleGuide-UseCross-ReferencesAppropriately)
-    *   [Use spell and grammar checkers](#StyleGuide-Usespellandgrammarcheckers)
-*   [Text](#StyleGuide-Text)
-    *   [General guidelines](#StyleGuide-Generalguidelines)
-    *   [Hyphens](#StyleGuide-Hyphens)
-    *   [Paragraphs](#StyleGuide-Paragraphs)
-    *   [Lists](#StyleGuide-Lists)
-    *   [Headings](#StyleGuide-Headings)
-    *   [Tables](#StyleGuide-Tables)
-    *   [Graphics](#StyleGuide-Graphics)
-    *   [Callouts and admonitions](#StyleGuide-Calloutsandadmonitions)
-    *   [Code description](#StyleGuide-Codedescription)
-    *   [Links](#StyleGuide-Links)
-    *   [Legal information](#StyleGuide-Legalinformation)
-    *   [Reference materials](#StyleGuide-Referencematerials)
-*   [Grammar](#StyleGuide-Grammar)
-    *   [Keep the Syntax Simple](#StyleGuide-KeeptheSyntaxSimple)
-    *   [Capitalization](#StyleGuide-Capitalization)
-    *   [Punctuation](#StyleGuide-Punctuation)
-    *   [Spelling](#StyleGuide-Spelling)
-    *   [Word usage](#StyleGuide-Wordusage)
-    *   [Numbers](#StyleGuide-Numbers)
-*   [Markup](#StyleGuide-Markup)
+- [Style guide for Documentation](#style-guide-for-documentation)
+- [Overview](#overview)
+- [Storytelling](#storytelling)
+  - [Be Translation Friendly](#be-translation-friendly)
+  - [Voice and tone](#voice-and-tone)
+  - [Keep the Structure Simple](#keep-the-structure-simple)
+  - [Use Cross-References Appropriately](#use-cross-references-appropriately)
+  - [Use spell and grammar checkers](#use-spell-and-grammar-checkers)
+- [Text](#text)
+  - [General guidelines](#general-guidelines)
+  - [Hyphens](#hyphens)
+  - [Paragraphs](#paragraphs)
+  - [Lists](#lists)
+  - [Headings](#headings)
+  - [Tables](#tables)
+  - [Graphics](#graphics)
+  - [Callouts and admonitions](#callouts-and-admonitions)
+  - [Code description](#code-description)
+  - [Links](#links)
+  - [Legal information](#legal-information)
+  - [Reference materials](#reference-materials)
+- [Grammar](#grammar)
+  - [Keep the Syntax Simple](#keep-the-syntax-simple)
+  - [Capitalization](#capitalization)
+  - [Punctuation](#punctuation)
+  - [Spelling](#spelling)
+  - [Word usage](#word-usage)
+  - [Numbers](#numbers)
+- [Markup](#markup)
 
 Overview
 ========
 
-This style guide enables implementing the principle of _simple documentation_. While there may be different ways to understand what simple documentation is, this style guide sticks to the following definition:
+This style guide enables the implementation of the principle of _simple documentation_. While there may be different ways to understand what simple documentation is, this style guide sticks to the following definition:
 
-> Simple documentation is a source of information about a software product which enables the target  
+> Simple documentation is a source of information about a software product that enables the target  
 > audience to use the product effectively and efficiently, discover new features, and easily locate  
 > all available information about the topics they are interested in by using their own language.
 
@@ -101,7 +102,7 @@ The target audience includes people who belong to different cultures. Remember t
 
 *   Write in a friendly, conversational, and respectful tone but don’t be frivolous. Do not use a _playful tone_.
 *   Focus on facts, real user tasks, and real user benefits. Avoid promotional hype at all costs.
-*   Write in second person and, where appropriate, in an imperative mood (e.g. “Do this”.)
+*   Write in the second person and, where appropriate, in an imperative mood (e.g. “Do this”.)
 *   Write in the present tense. Keep sentences short.  
     
 *   Use active voice where possible. Passive voice is acceptable when any of these conditions is true:
@@ -124,7 +125,7 @@ Technical documentation is not valuable as a standalone product but only in comb
 **Rules**
 
 *   Do not give references to future sections which actually require knowing more than the reader knows at the point of reference.
-*   When wriring release notes, make sure to list new version on top of the release notes list. Users seek for the new information so we should provide the easiest way to find it.
+*   When writing release notes, make sure to list the new version on top of the release notes list. Users seek new information so we should provide the easiest way to find it.
 *   Structure the text in such a way that the reader is involved as soon as possible
 *   Do not introduce graphics or tables as if they are a continuation of the current sentence.
 *   Notes are a way to give additional information which actually does not belong to the current topic
@@ -134,7 +135,7 @@ Sometimes, however, it is hard to determine if a given paragraph belongs to the 
 Use Cross-References Appropriately
 ----------------------------------
 
-By using cross-references in manuals and in similar documents, you delegate telling part of your story to another part of your document or to an entirely another document. After reading the cross-referenced material, the reader should be able to return to the current story.
+By using cross-references in manuals and in similar documents, you delegate telling part of your story to another part of your document or to entirely another document. After reading the cross-referenced material, the reader should be able to return to the current story.
 
 On the other hand, in documents that are used as references, such as release notes, glossaries, indexes, and so on, cross-references are a helpful tool which is should be used frequently. These types of documentation are not read from cover to cover: the reader must quickly locate the most specific information. 
 
@@ -187,7 +188,7 @@ When writing, use either the indicative or imperative mood. Use the subjunctive 
 **Guidelines:**
 
 *   Wrap lines at 80 characters
-*   Filenames. Suggestion: Use a “-“ as a word separator in filename
+*   Filenames. Suggestion: Use a “-“ as a word separator in the filename
 
 Hyphens
 -------
@@ -239,7 +240,7 @@ Focus on what the user can do rather than describe a feature
 **Rules**
 
 *   Do not use stacked headings: a subsection heading immediately following a section heading
-*   Avoid using one or two word headings
+*   Avoid using one or two-word headings
 *   Write brief but descriptive headings
 *   Keep the structure of headings of the same level grammatically aligned
 *   Avoid formatting headings (italic, bold, underlined, etc.) and using abbreviations (because they should be introduced first)
@@ -276,7 +277,15 @@ Callouts and admonitions
 
 Callouts emphasize important or helpful information. The following callouts are used:
 
-<table class="wrapped confluenceTable"><colgroup><col style="width: 89.0px;"><col style="width: 1002.0px;"></colgroup><tbody><tr><td class="confluenceTd"><p><strong>Name</strong></p></td><td class="confluenceTd"><p><strong>Description</strong></p></td></tr><tr><td class="confluenceTd"><p><span>Tip</span></p></td><td class="confluenceTd"><p><span>Provides helpful suggestions or useful information to improve user experience or provide alternative ways of doing something</span></p></td></tr><tr><td class="confluenceTd"><p><span>Important</span></p></td><td class="confluenceTd"><p><span>Provides essential points to complete a task or understand a topic</span></p></td></tr><tr><td class="confluenceTd"><p><span>Warning</span></p><p><span>Caution</span></p></td><td class="confluenceTd"><p><span>Highlight critical information that users must be aware of to avoid data loss, system misbehavior, etc.</span></p></td></tr><tr><td class="confluenceTd"><p><span>Note</span></p><p><span>Info</span></p></td><td class="confluenceTd"><p><span>Provides information to supplement the main idea and /or help users better understand the topic. Also provides information that applies in certain cases.</span></p></td></tr><tr><td class="confluenceTd"><p><span>See also</span></p></td><td class="confluenceTd"><p><span>Provides additional materials (common cases, deeper context)&nbsp; that are related to the preceding text.</span></p></td></tr><tr><td colspan="1" class="confluenceTd">Example</td><td colspan="1" class="confluenceTd">Highlights examples</td></tr></tbody></table>
+| Name           | Description                                                                                                                                               |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tip            | Provides helpful suggestions or useful information to improve the user experience or provide alternative ways of doing something                              |
+| Important      | Provides essential points to complete a task or understand a topic                                                                                        |
+| WarningCaution | Highlight critical information that users must be aware of to avoid data loss, system misbehavior, etc.                                                   |
+| NoteInfo       | Provides information to supplement the main idea and /or help users better understand the topic. Also provides information that applies in certain cases. |
+| See also       | Provides additional materials (common cases, deeper context)&nbsp; that are related to the preceding text.                                                |
+| Example        | Highlights examples                                                                                                                                       |
+
 
 **Rules**:
 
@@ -300,8 +309,8 @@ For code samples, use the following prompts:
 
 ```terminal
 $> type a command here
-#> type a command as root here
-mysql> type a mysql statement here
+#> type command as root here
+mysql> type a Percona Server for MySQL statement here
 ```
 
 Links
@@ -392,7 +401,7 @@ Markup
 
 Percona documentation is written in restructured text (.rst) and Markdown (.md)
 
-To keep documentation format consistent, follow these specifications:
+To keep the documentation format consistent, follow these specifications:
 
 For restructured text: [OpenStack Docs: RST conventions](https://docs.openstack.org/doc-contrib-guide/rst-conv.html)
 

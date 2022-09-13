@@ -1,5 +1,4 @@
 # Be Translation Friendly
------------------------
 
 Many readers are not fluent in English and may find some grammatical structures (which are quite popular in English) confusing.
 

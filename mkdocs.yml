@@ -95,8 +95,7 @@ plugins:
 
 
 nav:
-  - Home:
-      - overview.md
+  - "Home": "overview.md"
   - Storytelling:
     - translation.md
     - voice-and-tone.md

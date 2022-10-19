@@ -1,6 +1,12 @@
 # Callouts and admonitions
 
-Callouts emphasize important or helpful information. The following callouts are used:
+Callouts emphasize important or helpful information that is not part of the text flow. Readers may skip callouts since they are outside of the paragraph. To test if something should be a note or warning, write the text first as part of the paragraph and then decide if you need to make the information a callout.
+
+Do not use too many callouts. When you use too many notes they lose their effectiveness and blend into the other information. 
+
+Do not use a callout that provides information that the user needs to succeed with the task. 
+
+The following callouts are used:
 
 | Name | Description |
 |---|---|
@@ -14,5 +20,14 @@ Callouts emphasize important or helpful information. The following callouts are 
 ## Rules
 
 * Separate callouts with text paragraphs
-* Don’t stack callouts of the same type. Organize the content as a bullet list within a single callout
+* Don’t group callouts together. Reorganize the content. 
 * Avoid using a code-block inside callouts
+
+## When to use the callout
+
+Create a callout when:
+
+* The information is not necessary for what the user is doing. Even if the user skips the information in the callout, the task succeeds. 
+
+* The information is outside of the flow of the task. 
+

@@ -122,7 +122,10 @@ nav:
     - word-use.md
     - numbers.md
   - Writing:
+    - file-naming-SEO.md
     - rules-for-docs.md
+  - Guidelines:
+    - structure-release-notes.md
   - Markup:
     - markup.md
   - Copyright and licensing:

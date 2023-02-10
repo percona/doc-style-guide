@@ -14,7 +14,7 @@ use_directory_urls: false
 # Theme setup
 theme:
   name: material
-  logo: _images/Percona_Logo_Color.png
+  logo: _images/percona-logo.svg
   favicon: _images/percona-favicon.ico
   custom_dir: _resource/overrides/
   font:
@@ -34,6 +34,15 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+features:
+  - search.highlight
+  - search.share
+  - navigation.top
+  - navigation.tracking
+  - content.action.copy
+  - content.action.view
+  - content.account.edit
 
 
 extra_css:
@@ -76,7 +85,9 @@ markdown_extensions:
        
 
 plugins:
-  search: {}
+  section-index: {}
+  search: 
+    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   git-revision-date-localized: 
     enable_creation_date: true
     enabled: !ENV [ENABLED_GIT_REVISION_DATE, True]

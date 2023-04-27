@@ -42,7 +42,7 @@ features:
   - navigation.tracking
   - content.action.copy
   - content.action.view
-  - content.account.edit
+  - content.action.edit
 
 
 extra_css:

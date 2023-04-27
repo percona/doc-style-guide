@@ -11,20 +11,35 @@ by adding marketing-requested elements
 <div class="md-content">
   <article class="md-content__inner md-typeset" role="main">    
     <h4>Contact Us </h4>
-       <p>For free technical help, visit the Percona <a class="reference external" href="https://forums.percona.com/c/postgresql/25?utm_campaign=Doc%20pages" target="_blank">Community Forum</a>.<br>
-        <p>To report bugs or submit feature requests, open a <a class="reference external" href="https://jira.percona.com/projects/DISTPG/issues/" target="_blank">JIRA</a> ticket.<br>
+       <p>For free technical help, visit the Percona <a class="reference external" href="https://forums.percona.com/categories/?utm_campaign=Doc%20pages" target="_blank">Community Forum</a>.<br>
+        <p>To report bugs or submit feature requests, open a <a class="reference external" href="https://jira.percona.com/secure/Dashboard.jspa" target="_blank">JIRA</a> ticket.<br>
          <p>For paid <a class="reference external" href="https://www.percona.com/services/support"> support </a> and <a class="reference external" href="https://www.percona.com/services/managed-services"> managed </a> or <a class="reference external" href="https://www.percona.com/services/consulting">consulting services </a>, contact <a class="reference external" href="https://www.percona.com/about-percona/contact" target="_blank">Percona Sales</a>.</p>
  </article>
 </div>
 </div>
 {%- endmacro %}
 
+              {% block analytics %}
+              <!-- Google Tag Manager -->
+              <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-WBVF48V');</script>
+              <!-- End Google Tag Manager -->
+
+              <!-- Google Tag Manager (noscript) -->
+              <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBVF48V"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+              <!-- End Google Tag Manager (noscript) -->
+              {% endblock %}
+
               {% block content %}
 
                 <!-- Edit and view button -->
                 {% if page.edit_url %}
-                  {% set edit = "https://github.com/percona/pbm-docs/edit/main/docs/" %}
-                  {% set view = "https://raw.githubusercontent.com/percona/pbm-docs/docs/" %}
+                  {% set edit = "https://github.com/percona/doc-style-guide/edit/main/docs/" %}
+                  {% set view = "https://raw.githubusercontent.com/percona/doc-style-guide/docs/" %}
                   <a
                     href="{{ page.edit_url }}"
                     title="{{ lang.t('edit.link.title') }}"
